@@ -1,6 +1,8 @@
-Welcome to My app - Bonsai Store
+🌿 Welcome to Bonsai Store – Full-Stack Mobile Shopping App
 
-## Get started
+A beautifully crafted shopping experience for bonsai lovers – built with React Native (Expo) on the frontend and Express.js + MongoDB on the backend. From browsing elegant bonsai trees to seamless checkout and order tracking, Bonsai Store delivers a modern mobile commerce experience.
+
+🚀 Get Started
 
 1. Install dependencies
 
@@ -13,45 +15,93 @@ Welcome to My app - Bonsai Store
    ```bash
     npx expo start
    ```
-   or
-   if you build app ios
+Optional (for building on device):
    ```bash
-    npx expo run:ios
+   # iOS
+   npx expo run:ios
    ```
-   build app android
-    ```bash
-    npx expo run:android
+   ```bash
+   # Android
+   npx expo run:android
    ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+✨ Key Features
 
-## Get a fresh project
+👤 User Account
 
-When you're ready, run:
+- Sign in(google)/Sign up.
 
-```bash
-npm run reset-project
-```
+- Update personal information.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Manage saved bank cards for faster checkout.
 
-## Learn more
+🏠 Home Screen
 
-To learn more about developing your project with Expo, look at the following resources:
+ - Showcases featured bonsai trees, promotions, and seasonal suggestions.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+ - Search bar to quickly find bonsai by name, type, or price.
+   
+📦 Products
 
-## Join the community
+ - A collection of bonsai trees with images, prices, and short descriptions.
 
-Join our community of developers creating universal apps.
+ - Filters by category, price, size, and age of the tree.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+ - Detailed product pages with large images, full descriptions, and customer reviews.
+
+🛒 Shopping Cart
+
+- Add and update items in the cart.
+
+- Displays subtotal, shipping fees, and total cost.
+
+💳 Checkout
+
+- Enter shipping information: recipient name, address, phone number.
+
+- Choose a delivery method (Express, COD).
+
+- Select a payment method (Cash, ATM).
+
+- Pick a saved bank card if paying by ATM.
+
+- Confirm and place order.
+
+📁 Orders
+
+ - Track order status: Processing, Shipping, Completed.
+
+ - View purchase history.
+
+🛠️ Tech Stack
+
+ 📱 Frontend
+
+   - React Native (Expo)
+
+   - Redux – Global state management
+
+   - AsyncStorage – Local data persistence (e.g., userId, cart)
+
+   - Axios – API interaction
+
+   - FlashList (Shopify) – High-performance list rendering
+
+   - Modern UI – Built with Modal, SafeAreaView, Touchable, and Native components
+
+ 🌐 Backend
+   - Express.js – Lightweight, modular REST API
+
+   - MongoDB – Document-based NoSQL database
+
+   - JWT Authentication – Secure user sessions
+
+   - Mongoose – Schema-based interaction with MongoDB
+
+
+
+
+
+
