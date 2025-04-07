@@ -1,6 +1,4 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to My app - Bonsai Store
 
 ## Get started
 
@@ -14,6 +12,15 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
     npx expo start
+   ```
+   or
+   if you build app ios
+   ```bash
+    npx expo run:ios
+   ```
+   build app android
+    ```bash
+    npx expo run:android
    ```
 
 In the output, you'll find options to open the app in a
