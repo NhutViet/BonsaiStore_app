@@ -16,14 +16,15 @@ A beautifully crafted shopping experience for bonsai lovers – built with React
     npx expo start
    ```
 Optional (for building on device):
-    ```bash
+
+ ```bash
     # iOS
-    npx expo run:ios
-    ```
-    ```bash
+     npx expo run:ios
+ ```
+ ```bash
     # Android
    npx expo run:android
-    ```
+ ```
 
 
 
