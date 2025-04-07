@@ -1,4 +1,4 @@
-🌿 #Welcome to Bonsai Store – Full-Stack Mobile Shopping App
+🌿 ##Welcome to Bonsai Store – Full-Stack Mobile Shopping App
 
 A beautifully crafted shopping experience for bonsai lovers – built with React Native (Expo) on the frontend and Express.js + MongoDB on the backend. From browsing elegant bonsai trees to seamless checkout and order tracking, Bonsai Store delivers a modern mobile commerce experience.
 
